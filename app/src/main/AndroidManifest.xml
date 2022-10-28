@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.partyplanet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PartyPlanet"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Lawns.LawnBookingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Lounges.LoungeHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Lounges.LoungeBooking"
+            android:exported="false" />
+        <activity
+            android:name=".Restaurants.FoodMenuHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Restaurants.BookMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Restaurants.RestauMenuBooking"
+            android:exported="false" />
+        <activity
+            android:name=".Restaurants.Restaurantbooking"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.RoomsHistry"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainSplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashBoad.BookingConditions"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.BookingReview"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.PaymentGateway"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.FinalBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.FilterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.ShowReview"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.SuccessFull"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.WriteReview"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.CovidAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.frequentlyAQ"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.Helpdesk"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.TermsAndConditions"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.VieMore"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.CartViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.BookingHotel"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.ShowDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.SearchingShowData"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OtpVerification"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoad.DashBoad"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignInEmail"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.GetLocation"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

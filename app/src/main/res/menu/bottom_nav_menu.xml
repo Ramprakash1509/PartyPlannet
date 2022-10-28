@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:tint="@color/textcolor"
+        android:id="@+id/home"
+        android:title="HOME"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        app:tint="@color/textcolor"
+        android:id="@+id/mybooking"
+        android:title="BOOKINGS"
+        android:icon="@drawable/ic_booking"/>
+    <item
+        app:tint="@color/textcolor"
+        android:id="@+id/profile"
+        android:title="PROFILE"
+        android:icon="@drawable/user"/>
+    <item
+        
+        android:id="@+id/log_out"
+        android:title="LOG OUT"
+        android:icon="@drawable/ic_logout"/>
+</menu>
